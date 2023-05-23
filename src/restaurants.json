@@ -1,0 +1,156 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "McDonald`s",
+      "menu": [
+        {
+          "id": 11,
+          "name": "Big Mac",
+          "price": 10.99,
+          "image": "./Images/burger.png"
+        },
+        {
+          "id": 12,
+          "name": "Hamburger",
+          "price": 10.99,
+          "image": "./Images/big-mac.png"
+        },
+        {
+          "id": 13,
+          "name": "McDouble",
+          "price": 10.99,
+          "image": "./Images/McDouble.png"
+        },
+        {
+          "id": 14,
+          "name": "Cheeseburger",
+          "price": 12.99,
+          "image": "./Images/cheeseburger.png"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "KFC",
+      "menu": [
+        {
+          "id": 15,
+          "name": "Hamburger",
+          "price": 10.99,
+          "image": "./Images/burger.png"
+        },
+        {
+          "id": 16,
+          "name": "Wings",
+          "price": 10.99,
+          "image": "./Images/chicken-wings.png"
+        },
+        {
+          "id": 17,
+          "name": "Cheeseburger",
+          "price": 8.99,
+          "image": "./Images/cheeseburger.png"
+        },
+        {
+          "id": 18,
+          "name": "French fries",
+          "price": 9.99,
+          "image": "./Images/french-fries.png"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Good Time",
+      "menu": [
+        {
+          "id": 19,
+          "name": "Pizza",
+          "price": 10.99,
+          "image": "./Images/pizza.png"
+        },
+        {
+          "id": 20,
+          "name": "Hamburger",
+          "price": 10.99,
+          "image": "./Images/burger.png"
+        },
+        {
+          "id": 21,
+          "name": "Cheeseburger",
+          "price": 8.99,
+          "image": "./Images/cheeseburger.png"
+        },
+        {
+          "id": 22,
+          "name": "Ice-cream",
+          "price": 9.99,
+          "image": "./Images/ice-cream.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Scorini",
+      "menu": [
+        {
+          "id": 23,
+          "name": "Pizza",
+          "price": 10.99,
+          "image": "./Images/pizza.png"
+        },
+        {
+          "id": 24,
+          "name": "Coffee",
+          "price": 10.99,
+          "image": "./Images/coffee.png"
+        },
+        {
+          "id": 25,
+          "name": "Salad",
+          "price": 8.99,
+          "image": "./Images/salad.png"
+        },
+        {
+          "id": 26,
+          "name": "Hamburger",
+          "price": 9.99,
+          "image": "./Images/burger.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Burger Club",
+      "menu": [
+        {
+          "id": 27,
+          "name": "Hamburger",
+          "price": 10.99,
+          "image": "./Images/burger.png"
+        },
+        {
+          "id": 28,
+          "name": "French fries",
+          "price": 10.99,
+          "image": "./Images/french-fries.png"
+        },
+        {
+          "id": 29,
+          "name": "Pizza",
+          "price": 8.99,
+          "image": "./Images/pizza.png"
+        },
+        {
+          "id": 30,
+          "name": "Coffe",
+          "price": 9.99,
+          "image": "./Images/coffee.png"
+        }
+      ]
+    }
+  ]
+}
