@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ElifTechTest/static/css/main.caa6a81c.css",
+    "main.js": "/ElifTechTest/static/js/main.b4a4afea.js",
+    "static/js/271.c4771bb8.chunk.js": "/ElifTechTest/static/js/271.c4771bb8.chunk.js",
+    "static/js/348.113e3bd0.chunk.js": "/ElifTechTest/static/js/348.113e3bd0.chunk.js",
+    "static/media/ice-cream.png": "/ElifTechTest/static/media/ice-cream.e1aaa7068d2d7a071c21.png",
+    "static/media/pizza.png": "/ElifTechTest/static/media/pizza.8d8bcc6804fd21045bbb.png",
+    "static/media/coffee.png": "/ElifTechTest/static/media/coffee.734fbfc74e3a373e0db9.png",
+    "static/media/chicken-wings.png": "/ElifTechTest/static/media/chicken-wings.9acc043f02ec7e12b6c3.png",
+    "static/media/french-fries.png": "/ElifTechTest/static/media/french-fries.a3b3aed6276c6a9316ca.png",
+    "static/media/salad.png": "/ElifTechTest/static/media/salad.da1ae176789eb595ca32.png",
+    "static/media/Cola.png": "/ElifTechTest/static/media/Cola.62cbb093886a2f8c97b5.png",
+    "static/media/McDouble.png": "/ElifTechTest/static/media/McDouble.877dd7536015f74d8ee6.png",
+    "static/media/big-mac.png": "/ElifTechTest/static/media/big-mac.d7f36b2f62ed9e38a67e.png",
+    "index.html": "/ElifTechTest/index.html",
+    "main.caa6a81c.css.map": "/ElifTechTest/static/css/main.caa6a81c.css.map",
+    "main.b4a4afea.js.map": "/ElifTechTest/static/js/main.b4a4afea.js.map",
+    "271.c4771bb8.chunk.js.map": "/ElifTechTest/static/js/271.c4771bb8.chunk.js.map",
+    "348.113e3bd0.chunk.js.map": "/ElifTechTest/static/js/348.113e3bd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa6a81c.css",
+    "static/js/main.b4a4afea.js"
+  ]
+}
