@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
+import {Container} from "../../Container.styled";
+import { Form, FormGroup, FormInput, FormLabel, MenuOrder, Order, OrderContainer, Quantity, Title, Total } from './ShoopingCart.styled';
+
+
+
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState([]);
   const [name, setName] = useState('');
@@ -60,16 +65,62 @@ const ShoppingCart = () => {
   };
 
   return (
-    <div>
-      <h1>Shopping Cart</h1>
+    <Container>
+      
+      <OrderContainer>
+      <Order>
+      <Form onSubmit={handleSubmitOrder}>
+        <Title>Order Form</Title>
+        <FormGroup>
+          <FormLabel htmlFor="name">Name:</FormLabel>
+          <FormInput
+            type="text"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </FormGroup>
+        <FormGroup>
+          <FormLabel htmlFor="email">Email:</FormLabel>
+          <FormInput
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </FormGroup>
+        <FormGroup>
+          <FormLabel htmlFor="address">Address:</FormLabel>
+          <FormInput
+            type="text"
+            id="address"
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+          />
+        </FormGroup>
+        <FormGroup>
+          <FormLabel htmlFor="phone">Phone:</FormLabel>
+          <FormInput
+            type="tel"
+            id="phone"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+        </FormGroup>
+        
+        <button type="submit">Place Order</button>
+      </Form>
+      </Order>
+        <Order>
+      <Title>Ordering</Title>
       <ul>
         {cartItems.map((item) => (
-          <li key={item.id}>
-            <div>{item.name}</div>
-            <div>{item.price}</div>
+          <MenuOrder key={item.id}>
+            <FormLabel>{item.name}</FormLabel>
+            <FormLabel>{item.price}</FormLabel>
             <div>
               <button onClick={() => handleRemoveFromCart(item)}>Remove</button>
-              <input
+              <Quantity
                 type="number"
                 value={item.quantity}
                 min={1}
@@ -77,52 +128,15 @@ const ShoppingCart = () => {
                 onChange={(e) => handleUpdateQuantity(item, e.target.value)}
               />
             </div>
-          </li>
+          </MenuOrder>
         ))}
       </ul>
-      <div>Total: {calculateTotal()}</div>
-      <form onSubmit={handleSubmitOrder}>
-        <h2>Order Form</h2>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="address">Address:</label>
-          <input
-            type="text"
-            id="address"
-            value={address}
-            onChange={(e) => setAddress(e.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="phone">Phone:</label>
-          <input
-            type="tel"
-            id="phone"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-          />
-        </div>
-        <button type="submit">Place Order</button>
-      </form>
-      <button onClick={handleClearCart}>Clear Cart</button>
-    </div>
+      <Total>Total: {calculateTotal()}</Total>
+      </Order>
+      
+      
+      </OrderContainer>
+    </Container>
   );
 };
 

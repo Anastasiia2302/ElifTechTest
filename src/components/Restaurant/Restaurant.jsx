@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../../Container.styled';
-import {ImageMenu, ItemMenu, List, Title} from "./Restaurant.styled";
+import {ImageMenu, ItemMenu, List, Name, Title} from "./Restaurant.styled";
 import { renderImage } from '../ImagesUtils.jsx/ImageRender'
 
 
@@ -28,11 +28,11 @@ const Restaurant = ({ restaurant, expanded, onRestaurantClick, addToCart }) => {
           <ItemMenu>
             {menu.map((menuItem, index) => (
               <List key={index}>
-                <div>{menuItem.name}</div>
+                <Name>{menuItem.name}</Name>
                 <ImageMenu>
                 {renderImage(menuItem.image)}
                 </ImageMenu>
-                <button onClick={(event) => handleMenuClick(menuItem, event)}>Добавить в корзину</button>
+                <button onClick={(event) => handleMenuClick(menuItem, event)}>Add to cart</button>
               </List>
             ))}
           </ItemMenu>

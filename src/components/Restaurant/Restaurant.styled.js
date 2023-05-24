@@ -15,17 +15,26 @@ padding: 10px;
 
 export const ItemMenu = styled.ul`
 display:flex;
-
+justify-content: space-between;
 
 `
 
 export const ImageMenu = styled.div`
-background-color:red;
-border: 5px solid #D3678A;
-border-radius: 50%;
-width: 220px;
+
 `
 
-export const List = styled`
+export const List = styled.li`
+border-radius: 10%;
 border: 5px solid #D3678A;
+padding:6px;
+`
+export const Name = styled.h4`
+text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 24px;
+text-transform: uppercase;
+color: #A91B49;
+
 `
