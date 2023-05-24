@@ -52,12 +52,7 @@ const ShoppingCart = () => {
   const handleSubmitOrder = (e) => {
     e.preventDefault();
 
-    // Логика для отправки заказа...
-
-    // Очистка корзины
     handleClearCart();
-
-    // Очистка полей формы
     setName('');
     setEmail('');
     setAddress('');

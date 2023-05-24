@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import restaurants from '../restaurants.json';
-import Restaurant from './components/Restaurant ';
+import { Container } from '../../Container.styled';
+import restaurants from '../../restaurants.json';
+import Restaurant from '../../components/Restaurant/Restaurant';
+import { Title } from './Home.styled';
+
+
 
 const Home = () => {
   const [expandedRestaurantId, setExpandedRestaurantId] = useState(null);
@@ -20,8 +24,10 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1>Главная</h1>
+    <main>
+    <Container>
+    
+      <Title>Delicious delivery</Title>
       {restaurants.shops.map((restaurant) => (
         <Restaurant
           key={restaurant.id}
@@ -31,7 +37,9 @@ const Home = () => {
           addToCart={handleAddToCart}
         />
       ))}
-    </div>
+
+    </Container>
+    </main>
   );
 };
 

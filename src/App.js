@@ -1,29 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { lazy } from "react";
+import { Route, Routes } from "react-router-dom";
+import { Layout } from "./components/Layout/Layout";
 
-import Home from './pages/Home';
-import ShoppingCart from './pages/ShoppingCart';
+const Home = lazy(() => import("./pages/Home/Home"));
+const ShoppingCart = lazy(() => import("./pages/ShoppingCart"));
 
 const App = () => {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/cart">Shopping Cart</Link>
-            </li>
-          </ul>
-        </nav>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<ShoppingCart />} />
-        </Routes>
-      </div>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/cart" element={<ShoppingCart />} />
+      </Route>
+    </Routes>
   );
 };
 

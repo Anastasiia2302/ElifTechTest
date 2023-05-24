@@ -6,27 +6,27 @@
       "menu": [
         {
           "id": 11,
-          "name": "Big Mac",
+          "name": "Hamburger",
           "price": 10.99,
-          "image": "./Images/burger.png"
+          "image": "./Images/McDouble.png" 
         },
         {
           "id": 12,
-          "name": "Hamburger",
+          "name": "French fries",
           "price": 10.99,
-          "image": "./Images/big-mac.png"
+          "image": "./Images/french-fries.png"
         },
         {
           "id": 13,
-          "name": "McDouble",
+          "name": "Ice-cream",
           "price": 10.99,
-          "image": "./Images/McDouble.png"
+          "image": "./Images/ice-cream.png"
         },
         {
           "id": 14,
-          "name": "Cheeseburger",
+          "name": "Cola",
           "price": 12.99,
-          "image": "./Images/cheeseburger.png"
+          "image": "./Images/Cola.png"
         }
       ]
     },
@@ -39,7 +39,7 @@
           "id": 15,
           "name": "Hamburger",
           "price": 10.99,
-          "image": "./Images/burger.png"
+          "image": "./Images/McDouble.png"
         },
         {
           "id": 16,
@@ -49,9 +49,9 @@
         },
         {
           "id": 17,
-          "name": "Cheeseburger",
+          "name": "Cola",
           "price": 8.99,
-          "image": "./Images/cheeseburger.png"
+          "image": "./Images/Cola.png"
         },
         {
           "id": 18,
@@ -76,13 +76,13 @@
           "id": 20,
           "name": "Hamburger",
           "price": 10.99,
-          "image": "./Images/burger.png"
+          "image": "./Images/McDouble.png"
         },
         {
           "id": 21,
-          "name": "Cheeseburger",
+          "name": "Cola",
           "price": 8.99,
-          "image": "./Images/cheeseburger.png"
+          "image": "./Images/Cola.png"
         },
         {
           "id": 22,
@@ -118,7 +118,7 @@
           "id": 26,
           "name": "Hamburger",
           "price": 9.99,
-          "image": "./Images/burger.png"
+          "image": "./Images/McDouble.png"
         }
       ]
     },
