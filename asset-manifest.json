@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ElifTechTest/static/css/main.caa6a81c.css",
-    "main.js": "/ElifTechTest/static/js/main.82d3e922.js",
-    "static/js/271.d2638a1b.chunk.js": "/ElifTechTest/static/js/271.d2638a1b.chunk.js",
+    "main.js": "/ElifTechTest/static/js/main.60390736.js",
+    "static/js/271.62c5954b.chunk.js": "/ElifTechTest/static/js/271.62c5954b.chunk.js",
     "static/js/348.a9b22d29.chunk.js": "/ElifTechTest/static/js/348.a9b22d29.chunk.js",
     "static/media/ice-cream.png": "/ElifTechTest/static/media/ice-cream.e1aaa7068d2d7a071c21.png",
     "static/media/pizza.png": "/ElifTechTest/static/media/pizza.8d8bcc6804fd21045bbb.png",
@@ -15,12 +15,12 @@
     "static/media/big-mac.png": "/ElifTechTest/static/media/big-mac.d7f36b2f62ed9e38a67e.png",
     "index.html": "/ElifTechTest/index.html",
     "main.caa6a81c.css.map": "/ElifTechTest/static/css/main.caa6a81c.css.map",
-    "main.82d3e922.js.map": "/ElifTechTest/static/js/main.82d3e922.js.map",
-    "271.d2638a1b.chunk.js.map": "/ElifTechTest/static/js/271.d2638a1b.chunk.js.map",
+    "main.60390736.js.map": "/ElifTechTest/static/js/main.60390736.js.map",
+    "271.62c5954b.chunk.js.map": "/ElifTechTest/static/js/271.62c5954b.chunk.js.map",
     "348.a9b22d29.chunk.js.map": "/ElifTechTest/static/js/348.a9b22d29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.caa6a81c.css",
-    "static/js/main.82d3e922.js"
+    "static/js/main.60390736.js"
   ]
 }
