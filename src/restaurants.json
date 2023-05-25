@@ -8,7 +8,7 @@
           "id": 11,
           "name": "Hamburger",
           "price": 10.99,
-          "image": "./Images/McDouble.png" 
+          "image": "./Images/McDouble.png"
         },
         {
           "id": 12,

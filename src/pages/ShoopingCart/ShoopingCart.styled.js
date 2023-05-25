@@ -38,12 +38,11 @@ export const FormInput = styled.input`
   border-radius: 4px;
 `;
 export const MenuOrder = styled.li`
-
-border: 1px solid #a91b49;
-border-radius: 4px;
-margin-bottom: 10px;
-padding:10px;
-`
+  border: 1px solid #a91b49;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+`;
 export const Total = styled.h4`
   text-align: center;
   font-style: normal;
@@ -54,9 +53,8 @@ export const Total = styled.h4`
   color: #a91b49;
 `;
 export const Quantity = styled.input`
-border: 1px solid #a91b49;
-border-radius: 4px;
-margin-left: 6px;
-padding: 5px 10px;
-
-`
+  border: 1px solid #a91b49;
+  border-radius: 4px;
+  margin-left: 6px;
+  padding: 5px 10px;
+`;

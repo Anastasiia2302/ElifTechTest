@@ -1,7 +1,6 @@
 import React from "react";
 import bigMacImage from "../../Images/big-mac.png";
 import McDoubleImage from "../../Images/McDouble.png";
-
 import chickenWingsImage from "../../Images/chicken-wings.png";
 import frenchFriesImage from "../../Images/french-fries.png";
 import pizzaImage from "../../Images/pizza.png";
@@ -16,7 +15,6 @@ export const renderImage = (imagePath) => {
       return <img src={bigMacImage} alt="Big Mac" />;
     case "./Images/McDouble.png":
       return <img src={McDoubleImage} alt="McDouble" />;
-
     case "./Images/chicken-wings.png":
       return <img src={chickenWingsImage} alt="Chicken Wings" />;
     case "./Images/french-fries.png":
