@@ -11,6 +11,7 @@ export const Title = styled.h3`
   border: 1px solid #a91b49;
   border-radius: 20px;
   padding: 10px;
+  cursor: pointer;
 `;
 
 export const ItemMenu = styled.ul`
